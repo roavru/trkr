@@ -1,0 +1,60 @@
+export const colors = {
+  bg: "#000",
+  text: "#fff",
+  textSecondary: "rgba(255,255,255,0.55)",
+  textTertiary: "rgba(255,255,255,0.4)",
+  textDisabled: "rgba(255,255,255,0.15)",
+  textMuted: "rgba(255,255,255,0.25)",
+  accent: "#0A84FF",
+  green: "#30D158",
+  red: "#FF453A",
+  card: "rgba(255,255,255,0.06)",
+  cardBorder: "rgba(255,255,255,0.08)",
+  inputBg: "rgba(255,255,255,0.08)",
+  buttonGhost: "rgba(255,255,255,0.1)",
+  placeholder: "rgba(255,255,255,0.25)",
+  overlay: "rgba(0,0,0,0.55)",
+  overlayHeavy: "rgba(0,0,0,0.6)",
+  glass: "rgba(30,30,30,0.75)",
+  glassHeavy: "rgba(30,30,30,0.8)",
+  glassBg: "rgba(255,255,255,0.1)",
+  glassFab: "rgba(255,255,255,0.12)",
+  greenBg: "rgba(48,209,88,0.2)",
+  redBg: "rgba(255,69,58,0.15)",
+  blueBg: "rgba(10,132,255,0.2)",
+  segmentActive: "rgba(255,255,255,0.15)",
+  tabInactive: "rgba(255,255,255,0.4)",
+  buttonText: "rgba(255,255,255,0.6)",
+  buttonTextActive: "rgba(255,255,255,0.45)",
+} as const;
+
+export const spacing = {
+  xs: 4,
+  sm: 8,
+  md: 12,
+  lg: 16,
+  xl: 20,
+  xxl: 24,
+  xxxl: 28,
+} as const;
+
+export const radii = {
+  sm: 10,
+  md: 12,
+  lg: 14,
+  xl: 16,
+  xxl: 20,
+  pill: 28,
+  round: 22,
+} as const;
+
+export const fontSizes = {
+  xs: 10,
+  sm: 13,
+  md: 14,
+  body: 16,
+  lg: 17,
+  xl: 20,
+  title: 34,
+  hero: 38,
+} as const;
